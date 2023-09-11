@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.navbar {
+  /* border-bottom: 1px solid white; */
+  padding: 0 10px;
+  background-color: black;
+}
+.navbar-brand {
+  height: 20px;
+}
+.nav_logo {
+  /* position: relative; */
+  /* top: 50px; */
+  height: 120px;
+}
+.inside {
+  padding: 0 50px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: end;
+  gap: 5%;
+}
+.nav-item {
+  color: white;
+}
+
+.banner-section {
+  background-color: rgb(238, 199, 6);
+}
+
+.banner-hero {
+  padding: 0 100px;
+}
+
+.banner-image {
+  width: 50%;
+  height: 700px;
+}
+
+.banner-body {
+  width: 50%;
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  align-items: start;
+}
+
+.banner-heading {
+  font-size: 5rem;
+  color: black;
+}
+
+.banner-text {
+  font-size: 1.3rem;
+}
+
+.contact {
+  border: 2px solid black;
+  padding: 20px 50px;
+}
+
+.solution {
+  background-color: black;
+  text-align: center;
+  padding: 2% 24%;
+}
+.solution-heading {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: white;
+  padding: 20px 0;
+}
+
+.solution-text {
+  font-size: 1.4rem;
+  color: white;
+  padding: 0 0 20px;
+}
+
+.solution-contact {
+  background-color: rgb(238, 199, 6);
+  padding: 20px 50px;
+}
+
+.objective {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5% 10%;
+}
+
+.mission {
+  display: flex;
+  background-color: rgb(205, 204, 204);
+  margin: 20px 0;
+}
+
+.value {
+  display: flex;
+  background-color: rgb(245, 206, 11);
+  margin: 20px 0;
+}
+.mission-body {
+  padding: 5% 5%;
+}
+.mission-image {
+  width: 40%;
+}
+
+.mission-heading {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.mission-text {
+  font-size: 1rem;
+}
+
+.reason {
+  background-color: rgb(245, 206, 11);
+  display: flex;
+  justify-content: center;
+  padding: 5% 20%;
+}
+
+.history {
+  background-color: white;
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.history-heading {
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+.history-text {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+}
+.learn {
+  border: none;
+  background-color: rgb(245, 206, 11);
+  margin: 0 70px;
+  padding: 10px;
+}
+
+.choose {
+  width: 50%;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.choose-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+.choose-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+}
+.choose-button {
+  border: none;
+  margin: 0 20px;
+  padding: 20px;
+}
+
+.all-article {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.service-article {
+  width: 25%;
+}
+
+.service-image {
+  width: 200px;
+}
+
+.article-heading {
+  font-size: 0.7rem;
+}
+
+.article-text {
+  font-size: 0.7rem;
+}
+@media (max-width: 1400px) {
+  .banner-image {
+    height: 600px;
+  }
+  .phone-image {
+    height: 30px;
+  }
+  .phone-text {
+    font-size: 1rem;
+  }
+  .banner-heading {
+    font-size: 3rem;
+  }
+
+  .banner-text {
+    font-size: 1rem;
+  }
+
+  .contact {
+    padding: 10px 20px;
+  }
+
+  .solution-heading {
+    font-size: 3rem;
+  }
+
+  .solution-text {
+    font-size: 1.1rem;
+  }
+
+  .solution-contact {
+    padding: 15px 40px;
+  }
+  .history {
+    padding: 20px;
+  }
+  .history-heading {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .history-text {
+    font-size: 1rem;
+  }
+  .learn {
+    margin: 0 25px;
+    padding: 10px;
+  }
+  .choose-text {
+    font-size: 0.9rem;
+  }
+  .choose-list {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-hero {
+    padding: 0 70px;
+  }
+  .banner-image {
+    height: 460px;
+  }
+  .phone-image {
+    height: 32px;
+  }
+  .phone-text {
+    font-size: 0.8rem;
+  }
+  .banner-heading {
+    font-size: 1.5rem;
+  }
+
+  .banner-text {
+    font-size: 0.8rem;
+  }
+
+  .contact {
+    padding: 5px 10px;
+  }
+  .solution-heading {
+    font-size: 2rem;
+  }
+
+  .solution-text {
+    font-size: 0.8rem;
+    padding: 0 0 5px;
+  }
+
+  .solution-contact {
+    padding: 5px 10px;
+  }
+
+  .mission-heading {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .mission-text {
+    font-size: 0.8rem;
+  }
+  .reason {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+  }
+  .history {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .history-heading {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .history-text {
+    font-size: 1rem;
+  }
+  .learn {
+    margin: 0 40px;
+    padding: 10px;
+  }
+  .choose {
+    width: 100%;
+  }
+  .choose-text {
+    font-size: 1rem;
+  }
+  .choose-list {
+    font-size: 0.9rem;
+  }
+  .choose-button {
+    margin: 0 30px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+}
